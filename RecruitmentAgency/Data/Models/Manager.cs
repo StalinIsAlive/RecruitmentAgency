@@ -1,6 +1,7 @@
 ﻿namespace RecruitmentAgency.Data.Models
 {
-    public class Class
+    public class Manager : Applicant
     {
+
     }
 }
