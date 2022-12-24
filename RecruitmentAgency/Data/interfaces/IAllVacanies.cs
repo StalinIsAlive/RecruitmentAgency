@@ -1,6 +1,10 @@
-﻿namespace RecruitmentAgency.Data.interfaces
+﻿using RecruitmentAgency.Data.Models;
+
+namespace RecruitmentAgency.Data.interfaces
 {
-    public interface Interface
+    public interface IAllVacanies
     {
+        IEnumerable<Vacancy> getVacanies { get; }
+        IEnumerable<Vacancy> getFavoriteVacancies { get; }
     }
 }
